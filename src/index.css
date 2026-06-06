@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* small utility card component */
+.card {
+  @apply bg-gradient-to-b from-white/5 to-white/5 border border-white/10 p-4 rounded-xl;
+}
+
+html,body,#root{height:100%}
+body{@apply bg-[#0A0A0A] text-white font-sans}
+.container{max-width:960px;margin:2rem auto;padding:1rem}
+
+.project-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1rem}
